@@ -44,7 +44,7 @@ export default function Catalog() {
 
         {/* Filtros y búsqueda */}
         <section className="sticky top-16 md:top-18 z-20 bg-white/95 backdrop-blur-md border-b border-joly-gris/50 shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between overflow-hidden">
             <CategoryFilter
               activeCategory={activeCategory}
               onCategoryChange={setActiveCategory}

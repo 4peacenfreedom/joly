@@ -10,7 +10,7 @@ export default function CategoryFilter({ activeCategory, onCategoryChange, count
   return (
     <div
       ref={scrollRef}
-      className="flex gap-2 overflow-x-auto pb-2 scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap"
+      className="flex gap-2 overflow-x-auto pb-2 scrollbar-none w-full min-w-0 sm:flex-wrap"
       role="group"
       aria-label="Filtrar por categoría"
     >
