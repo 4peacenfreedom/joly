@@ -13,12 +13,14 @@ export function useProducts() {
     }
 
     if (search.trim()) {
-      const q = search.toLowerCase().trim()
+      const normalize = (str) =>
+        str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      const q = normalize(search.trim())
       result = result.filter(
         (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.shortDescription.toLowerCase().includes(q) ||
-          p.ingredients.some((i) => i.toLowerCase().includes(q))
+          normalize(p.name).includes(q) ||
+          normalize(p.shortDescription).includes(q) ||
+          p.ingredients.some((i) => normalize(i).includes(q))
       )
     }
 
