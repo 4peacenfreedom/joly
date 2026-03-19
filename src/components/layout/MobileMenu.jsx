@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, MessageCircle } from 'lucide-react'
+import { X } from 'lucide-react'
+import WhatsAppIcon from '../ui/WhatsAppIcon'
 
 const navLinks = [
   { to: '/', label: 'Inicio' },
@@ -93,7 +94,7 @@ export default function MobileMenu({ isOpen, onClose }) {
                 onClick={handleWhatsApp}
                 className="w-full flex items-center justify-center gap-2 bg-[#25D366] text-white font-montserrat font-semibold py-3 px-4 rounded-xl hover:opacity-90 transition-opacity focus-visible:outline-2 focus-visible:outline-white"
               >
-                <MessageCircle className="w-5 h-5" />
+                <WhatsAppIcon className="w-5 h-5" />
                 Escribinos por WhatsApp
               </button>
               <p className="text-white/50 text-xs text-center font-montserrat mt-3">
