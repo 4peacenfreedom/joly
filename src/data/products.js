@@ -14,7 +14,7 @@ export const products = [
     ingredients: ['Lechuga Iceberg', 'Lechuga Romana', 'Zanahoria Rallada', 'Repollo Morado Rallado'],
     cutTypes: [],
     presentations: 'Desde 100 g hasta 1 kg',
-    image: `${CDN}/joly_catalogo/ensaladas/ensalada-premium_zp4mue`,
+    image: `${CDN}/ensalada-premium_zp4mue`,
     order: 1,
   },
   {
@@ -27,7 +27,7 @@ export const products = [
     ingredients: ['Lechuga Iceberg', 'Lechuga Romana', 'Escarola', 'Espinaca', 'Lechuga Lolo Rosa'],
     cutTypes: [],
     presentations: 'Desde 100 g hasta 1 kg',
-    image: `${CDN}/joly_catalogo/ensaladas/mezcla-de-lechugas_m0t0rh`,
+    image: `${CDN}/mezcla-de-lechugas_m0t0rh`,
     order: 2,
   },
   {
@@ -40,7 +40,7 @@ export const products = [
     ingredients: ['Repollo Morado Rallado', 'Repollo Verde Rallado', 'Zanahoria Rallada'],
     cutTypes: [],
     presentations: 'Desde 100 g hasta 1 kg',
-    image: `${CDN}/joly_catalogo/ensaladas/ensalada-criolla_wtridp`,
+    image: `${CDN}/ensalada-criolla_wtridp`,
     order: 3,
   },
   {
@@ -53,7 +53,7 @@ export const products = [
     ingredients: ['Lechuga Americana', 'Lechuga Romana', 'Repollo Morado Rallado', 'Zanahoria Rallada'],
     cutTypes: [],
     presentations: 'Desde 100 g hasta 1 kg',
-    image: `${CDN}/joly_catalogo/ensaladas/ensalada-joly_prqv1s`,
+    image: `${CDN}/ensalada-joly_prqv1s`,
     order: 4,
   },
   // ── ENSALADAS PREPARADAS ───────────────────────────────────
@@ -67,7 +67,7 @@ export const products = [
     ingredients: ['Camote', 'Mantequilla', 'Margarina', 'Sal'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/pure-de-camote_ptm6rc`,
+    image: `${CDN}/pure-de-camote_ptm6rc`,
     order: 1,
   },
   {
@@ -80,7 +80,7 @@ export const products = [
     ingredients: ['Tomate', 'Culantro', 'Cebolla', 'Salsa Inglesa', 'Vinagre', 'Sal', 'Salsa de Tomate'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/pico-de-gallo_j85nz4`,
+    image: `${CDN}/pico-de-gallo_j85nz4`,
     order: 2,
   },
   {
@@ -93,7 +93,7 @@ export const products = [
     ingredients: ['Papa', 'Margarina', 'Mantequilla', 'Sal'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/pure-de-papa_lrosfn`,
+    image: `${CDN}/pure-de-papa_lrosfn`,
     order: 3,
   },
   {
@@ -106,7 +106,7 @@ export const products = [
     ingredients: ['Papa', 'Margarina', 'Mantequilla', 'Sal'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/escabeche-de-tomate_jue4ue`,
+    image: `${CDN}/escabeche-de-tomate_jue4ue`,
     order: 4,
   },
   {
@@ -119,7 +119,7 @@ export const products = [
     ingredients: ['Pasta de Caracolitos', 'Zanahoria', 'Chile Dulce', 'Culantro', 'Cebolla', 'Mayonesa', 'Vinagre', 'Sal'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/ensalada-de-caracolitos_ew3tjr`,
+    image: `${CDN}/ensalada-de-caracolitos_ew3tjr`,
     order: 5,
   },
   {
@@ -132,7 +132,7 @@ export const products = [
     ingredients: ['Remolacha', 'Papa', 'Culantro', 'Azúcar', 'Vinagre', 'Preservante'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/ensalada-rusa_bau1hw`,
+    image: `${CDN}/ensalada-rusa_bau1hw`,
     order: 6,
   },
   {
@@ -145,7 +145,7 @@ export const products = [
     ingredients: ['Repollo', 'Zanahoria', 'Aderezo dulce de Mayonesa'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/ensalada-de-repollo_dkomc7`,
+    image: `${CDN}/ensalada-de-repollo_dkomc7`,
     order: 7,
   },
   {
@@ -158,7 +158,7 @@ export const products = [
     ingredients: ['Plátano Picado', 'Cebolla', 'Chile Dulce', 'Salsa de Tomate', 'Vinagre', 'Sal'],
     cutTypes: [],
     presentations: 'Desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/ensaladas-preparadas/ceviche-de-platano_goutux`,
+    image: `${CDN}/ceviche-de-platano_goutux`,
     order: 8,
   },
   // ── MIXTOS ─────────────────────────────────────────────────
@@ -172,7 +172,7 @@ export const products = [
     ingredients: ['Coliflor', 'Brócoli', 'Chayote', 'Zanahoria'],
     cutTypes: ['Arbolitos (coliflor y brócoli)', 'Bastones (chayote y zanahoria)'],
     presentations: 'Disponible en presentaciones personalizadas',
-    image: `${CDN}/joly_catalogo/mixtos/mix-de-vegetales_d9bbcc`,
+    image: `${CDN}/mix-de-vegetales_d9bbcc`,
     order: 1,
   },
   {
@@ -185,7 +185,7 @@ export const products = [
     ingredients: ['Vainica', 'Zanahoria'],
     cutTypes: ['Cubos de 1 cm'],
     presentations: 'Disponible en presentaciones personalizadas',
-    image: `${CDN}/joly_catalogo/mixtos/mix-vainica-zanahoria_tdmnvv`,
+    image: `${CDN}/mix-vainica-zanahoria_tdmnvv`,
     order: 2,
   },
   // ── PRODUCTO PRECORTADO ────────────────────────────────────
@@ -199,7 +199,7 @@ export const products = [
     ingredients: ['Yuca'],
     cutTypes: ['Trozos', 'Trocitos'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/yuca_lhjbxw`,
+    image: `${CDN}/yuca_lhjbxw`,
     order: 1,
   },
   {
@@ -212,7 +212,7 @@ export const products = [
     ingredients: ['Zanahoria'],
     cutTypes: ['Trozos', 'Bastones', 'Picada', 'Rodajas', 'Rallada'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/zanahoria_xgzpad`,
+    image: `${CDN}/zanahoria_xgzpad`,
     order: 2,
   },
   {
@@ -225,7 +225,7 @@ export const products = [
     ingredients: ['Plátano'],
     cutTypes: ['Picado', 'Trozos', 'Rodajas (maduro y verde)'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/platano_xluro9`,
+    image: `${CDN}/platano_xluro9`,
     order: 3,
   },
   {
@@ -238,7 +238,7 @@ export const products = [
     ingredients: ['Remolacha'],
     cutTypes: ['Rodajas', 'Picada', 'Rallada'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/remolacha_figx1s`,
+    image: `${CDN}/remolacha_figx1s`,
     order: 4,
   },
   {
@@ -251,7 +251,7 @@ export const products = [
     ingredients: ['Cebolla Blanca', 'Cebolla Morada'],
     cutTypes: ['Picada', 'Rodajas', 'Juliana'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/cebolla_rjhapc`,
+    image: `${CDN}/cebolla_rjhapc`,
     order: 5,
   },
   {
@@ -264,7 +264,7 @@ export const products = [
     ingredients: ['Camote'],
     cutTypes: ['Entero Pelado', 'Trozos'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/camote_ottoty`,
+    image: `${CDN}/camote_ottoty`,
     order: 6,
   },
   {
@@ -277,7 +277,7 @@ export const products = [
     ingredients: ['Ayote'],
     cutTypes: ['Trozos', 'Picado', 'Bastones', 'Ayote tierno', 'Ayote sazón'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/ayote_hr6kcb`,
+    image: `${CDN}/ayote_hr6kcb`,
     order: 7,
   },
   {
@@ -290,7 +290,7 @@ export const products = [
     ingredients: ['Culantro'],
     cutTypes: ['Ramas', 'Picado'],
     presentations: 'Paquetes desde 100 g hasta 500 g',
-    image: `${CDN}/joly_catalogo/producto-precortado/culantro_llnqza`,
+    image: `${CDN}/culantro_llnqza`,
     order: 8,
   },
   {
@@ -303,7 +303,7 @@ export const products = [
     ingredients: ['Brócoli'],
     cutTypes: ['Florets'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/brocoli_k4gnzr`,
+    image: `${CDN}/brocoli_k4gnzr`,
     order: 9,
   },
   {
@@ -316,7 +316,7 @@ export const products = [
     ingredients: ['Coliflor'],
     cutTypes: ['Florets'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/coliflor_nvgaum`,
+    image: `${CDN}/coliflor_nvgaum`,
     order: 10,
   },
   {
@@ -329,7 +329,7 @@ export const products = [
     ingredients: ['Chile Dulce'],
     cutTypes: ['Juliana', 'Picado', 'Tiras'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/chile-dulce_wgbns9`,
+    image: `${CDN}/chile-dulce_wgbns9`,
     order: 11,
   },
   {
@@ -342,7 +342,7 @@ export const products = [
     ingredients: ['Apio'],
     cutTypes: ['Picado', 'Julianas', 'Bastones'],
     presentations: 'Paquetes desde 100 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/apio_r0hywt`,
+    image: `${CDN}/apio_r0hywt`,
     order: 12,
   },
   {
@@ -355,7 +355,7 @@ export const products = [
     ingredients: ['Chayote'],
     cutTypes: ['Bastones', 'Picado', 'Trozos'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/chayote_vbqngm`,
+    image: `${CDN}/chayote_vbqngm`,
     order: 13,
   },
   {
@@ -368,7 +368,7 @@ export const products = [
     ingredients: ['Ajo'],
     cutTypes: ['Picado', 'Entero Pelado', 'Molido'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/ajo_geyoxh`,
+    image: `${CDN}/ajo_geyoxh`,
     order: 14,
   },
   {
@@ -381,7 +381,7 @@ export const products = [
     ingredients: ['Repollo'],
     cutTypes: ['Picado', 'Rallado'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/joly_catalogo/producto-precortado/repollo_tlh7gn`,
+    image: `${CDN}/repollo_tlh7gn`,
     order: 15,
   },
   {
@@ -394,7 +394,7 @@ export const products = [
     ingredients: ['Espinaca'],
     cutTypes: ['Ramas', 'Hojas'],
     presentations: 'Paquetes desde 100 g hasta 500 g',
-    image: `${CDN}/joly_catalogo/producto-precortado/espinaca_n6u4qr`,
+    image: `${CDN}/espinaca_n6u4qr`,
     order: 16,
   },
   {
@@ -407,7 +407,7 @@ export const products = [
     ingredients: ['Albahaca', 'Romero', 'Perejil', 'Orégano', 'Tomillo'],
     cutTypes: ['Ramas'],
     presentations: 'Paquetes desde 100 g hasta 500 g',
-    image: `${CDN}/joly_catalogo/producto-precortado/hierbas-aromaticas_ljfhfj`,
+    image: `${CDN}/hierbas-aromaticas_ljfhfj`,
     order: 17,
   },
   {
@@ -420,7 +420,7 @@ export const products = [
     ingredients: ['Lechuga'],
     cutTypes: ['Picada', 'Hojas'],
     presentations: 'Paquetes desde 100 g hasta 500 g',
-    image: `${CDN}/joly_catalogo/producto-precortado/lechuga_gwsink`,
+    image: `${CDN}/lechuga_gwsink`,
     order: 18,
   },
   // ── COMIDA PREPARADA ───────────────────────────────────────
@@ -434,7 +434,7 @@ export const products = [
     ingredients: ['Arroz', 'Frijoles', 'Cebolla', 'Chile Dulce', 'Culantro', 'Salsa Lizano'],
     cutTypes: [],
     presentations: 'Consultar disponibilidad y presentaciones',
-    image: `${CDN}/joly_catalogo/comida-preparada/gallo-pinto_r8m6nz`,
+    image: `${CDN}/gallo-pinto_r8m6nz`,
     order: 1,
   },
   {
@@ -447,7 +447,7 @@ export const products = [
     ingredients: ['Arroz', 'Pollo', 'Vegetales', 'Especias'],
     cutTypes: [],
     presentations: 'Consultar disponibilidad y presentaciones',
-    image: `${CDN}/joly_catalogo/comida-preparada/arroz-con-pollo_l3z8ng`,
+    image: `${CDN}/arroz-con-pollo_l3z8ng`,
     order: 2,
   },
 ]
