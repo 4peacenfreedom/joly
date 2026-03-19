@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Menu, MessageCircle } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import { motion } from 'framer-motion'
 import MobileMenu from './MobileMenu'
 import logoSrc from '../../assets/logo.svg'
+import WhatsAppIcon from '../ui/WhatsAppIcon'
 
 const navLinks = [
   { to: '/', label: 'Inicio' },
@@ -79,7 +80,7 @@ export default function Header() {
                 onClick={handleWhatsApp}
                 className="hidden md:flex items-center gap-2 bg-joly-dorado text-white font-montserrat font-semibold text-sm px-4 py-2 rounded-full hover:bg-opacity-90 transition-colors focus-visible:outline-2 focus-visible:outline-joly-dorado"
               >
-                <MessageCircle className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4" />
                 Escribinos
               </button>
 

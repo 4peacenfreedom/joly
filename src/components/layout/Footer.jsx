@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
-import { Phone, MapPin, MessageCircle } from 'lucide-react'
+import { Phone, MapPin } from 'lucide-react'
 import logoClaro from '../../assets/logo_claro.svg'
 import BrandDivider from '../ui/BrandDivider'
+import WhatsAppIcon from '../ui/WhatsAppIcon'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -91,7 +92,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-montserrat text-sm font-semibold text-[#25D366] hover:opacity-80 transition-opacity focus-visible:outline-2 focus-visible:outline-[#25D366] rounded-sm"
                 >
-                  <MessageCircle className="w-4 h-4" aria-hidden="true" />
+                  <WhatsAppIcon className="w-4 h-4" />
                   WhatsApp
                 </a>
               </li>

@@ -1,8 +1,9 @@
 import { useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, Package, Scissors, Check, MessageCircle } from 'lucide-react'
+import { X, Package, Scissors, Check } from 'lucide-react'
 import { categories } from '../../data/categories'
 import CategoryBadge from '../ui/CategoryBadge'
+import WhatsAppIcon from '../ui/WhatsAppIcon'
 
 export default function ProductModal({ product, onClose }) {
   const closeButtonRef = useRef(null)
@@ -163,7 +164,7 @@ export default function ProductModal({ product, onClose }) {
                       className="w-full flex items-center justify-center gap-2 font-montserrat font-bold text-white py-3.5 px-6 rounded-xl hover:opacity-90 transition-opacity focus-visible:outline-2 focus-visible:outline-[#25D366] text-base"
                       style={{ backgroundColor: '#25D366' }}
                     >
-                      <MessageCircle className="w-5 h-5" aria-hidden="true" />
+                      <WhatsAppIcon className="w-5 h-5" />
                       Consultar por WhatsApp
                     </button>
                   </div>

@@ -1,7 +1,8 @@
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
-import { Phone, MapPin, MessageCircle, Mail } from 'lucide-react'
+import { Phone, MapPin } from 'lucide-react'
 import BrandDivider from '../components/ui/BrandDivider'
+import WhatsAppIcon from '../components/ui/WhatsAppIcon'
 
 const contactItems = [
   {
@@ -25,7 +26,7 @@ const contactItems = [
     ),
   },
   {
-    icon: MessageCircle,
+    icon: WhatsAppIcon,
     title: 'WhatsApp',
     content: (
       <a
@@ -126,7 +127,7 @@ export default function Contact() {
                 className="w-full flex items-center justify-center gap-3 font-montserrat font-bold text-white text-base py-4 px-6 rounded-2xl hover:opacity-90 transition-opacity focus-visible:outline-2 focus-visible:outline-[#25D366]"
                 style={{ backgroundColor: '#25D366' }}
               >
-                <MessageCircle className="w-6 h-6" aria-hidden="true" />
+                <WhatsAppIcon className="w-6 h-6" />
                 Escribir por WhatsApp
               </button>
 
@@ -199,7 +200,7 @@ export default function Contact() {
                 className="inline-flex items-center justify-center gap-2 font-montserrat font-bold px-6 py-3 rounded-full text-white hover:opacity-90 transition-opacity focus-visible:outline-2 focus-visible:outline-[#25D366]"
                 style={{ backgroundColor: '#25D366' }}
               >
-                <MessageCircle className="w-4 h-4" aria-hidden="true" />
+                <WhatsAppIcon className="w-4 h-4" />
                 Hacer Pedido
               </button>
             </div>
