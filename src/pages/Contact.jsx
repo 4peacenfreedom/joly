@@ -17,10 +17,10 @@ const contactItems = [
           6449-4173
         </a>
         <a
-          href="tel:+50688845963"
+          href="tel:+50687633342"
           className="font-montserrat text-gray-700 hover:text-joly-verde transition-colors focus-visible:outline-2 focus-visible:outline-joly-verde rounded"
         >
-          8884-5963
+          8763-3342
         </a>
       </div>
     ),
@@ -44,9 +44,9 @@ const contactItems = [
     title: 'Dirección',
     content: (
       <address className="font-montserrat text-gray-700 text-sm not-italic leading-relaxed">
-        900m N. de la Iglesia de San Rafael,<br />
-        contiguo al Residencial Bello Verde,<br />
-        Cartago, CR 30301
+        500 metros este del Minisuper Piedra Azul,<br />
+        planta a mano derecha con portones grises,<br />
+        Santiago, Paraíso, Cartago
       </address>
     ),
   },
@@ -64,7 +64,7 @@ export default function Contact() {
         <title>Contacto | JOLY | Productos Frescos Cartago, Costa Rica</title>
         <meta
           name="description"
-          content="Contactá a JOLY para pedidos de productos frescos precortados. Teléfonos: 6449-4173 y 8884-5963. Cartago, Costa Rica."
+          content="Contactá a JOLY para pedidos de productos frescos precortados. Teléfonos: 6449-4173 y 8763-3342. Santiago, Paraíso, Cartago, Costa Rica."
         />
       </Helmet>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                 Contacto
               </h1>
               <p className="font-montserrat text-white/70 text-lg max-w-xl leading-relaxed">
-                Contáctenos por WhatsApp, teléfono o visítenos en nuestras instalaciones en Cartago.
+                Contáctenos por WhatsApp, teléfono o visítenos en nuestras instalaciones en Santiago, Paraíso, Cartago.
               </p>
             </motion.div>
           </div>
@@ -140,11 +140,11 @@ export default function Contact() {
                   6449-4173
                 </a>
                 <a
-                  href="tel:+50688845963"
+                  href="tel:+50687633342"
                   className="flex items-center justify-center gap-2 font-montserrat font-semibold text-joly-verde text-sm py-3 px-4 rounded-xl border-2 border-joly-verde/30 hover:border-joly-verde transition-colors focus-visible:outline-2 focus-visible:outline-joly-verde"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" />
-                  8884-5963
+                  8763-3342
                 </a>
               </div>
             </motion.div>
@@ -161,7 +161,7 @@ export default function Contact() {
               <div className="rounded-2xl overflow-hidden shadow-md border border-joly-gris/50 aspect-video">
                 <iframe
                   title="Ubicación de JOLY en Google Maps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.5766!2d-83.9116!3d9.8654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTEnNTUuNCJOIDgzwrA1NCc0MS44Ilc!5e0!3m2!1ses!2scr!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1019.870752245718!2d-83.80536476156307!3d9.860964175457012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2scr!4v1774289013543!5m2!1ses!2scr"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -171,7 +171,7 @@ export default function Contact() {
                 />
               </div>
               <p className="font-montserrat text-joly-taupe text-xs mt-2 text-center">
-                📍 900m N. de la Iglesia de San Rafael, contiguo al Residencial Bello Verde, Cartago
+                📍 500 metros este del Minisuper Piedra Azul, Santiago, Paraíso, Cartago
               </p>
             </motion.div>
           </div>
