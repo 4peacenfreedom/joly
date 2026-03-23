@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
-import { Phone, MapPin } from 'lucide-react'
+import { Phone, MapPin, Mail } from 'lucide-react'
 import BrandDivider from '../components/ui/BrandDivider'
 import WhatsAppIcon from '../components/ui/WhatsAppIcon'
 
@@ -36,6 +36,18 @@ const contactItems = [
         className="font-montserrat text-[#25D366] font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-[#25D366] rounded"
       >
         +506 6449-4173
+      </a>
+    ),
+  },
+  {
+    icon: Mail,
+    title: 'Correo',
+    content: (
+      <a
+        href="mailto:gcoronado@productosjoly.com"
+        className="font-montserrat text-gray-700 hover:text-joly-verde transition-colors focus-visible:outline-2 focus-visible:outline-joly-verde rounded"
+      >
+        gcoronado@productosjoly.com
       </a>
     ),
   },

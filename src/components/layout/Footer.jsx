@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Phone, MapPin } from 'lucide-react'
+import { Phone, MapPin, Mail } from 'lucide-react'
 import logoClaro from '../../assets/logo_claro.svg'
 import BrandDivider from '../ui/BrandDivider'
 import WhatsAppIcon from '../ui/WhatsAppIcon'
@@ -84,6 +84,15 @@ export default function Footer() {
                   planta a mano derecha con portones grises,<br />
                   Santiago, Paraíso, Cartago
                 </address>
+              </li>
+              <li className="flex items-start gap-2">
+                <Mail className="w-4 h-4 text-joly-dorado mt-0.5 shrink-0" aria-hidden="true" />
+                <a
+                  href="mailto:gcoronado@productosjoly.com"
+                  className="font-montserrat text-white/80 text-sm hover:text-white transition-colors focus-visible:outline-2 focus-visible:outline-joly-dorado rounded-sm"
+                >
+                  gcoronado@productosjoly.com
+                </a>
               </li>
               <li>
                 <a
