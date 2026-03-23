@@ -70,19 +70,19 @@ export default function Footer() {
                     6449-4173
                   </a>
                   <a
-                    href="tel:+50688845963"
+                    href="tel:+50687633342"
                     className="font-montserrat text-white/80 text-sm hover:text-white transition-colors block focus-visible:outline-2 focus-visible:outline-joly-dorado rounded-sm"
                   >
-                    8884-5963
+                    8763-3342
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-joly-dorado mt-0.5 shrink-0" aria-hidden="true" />
                 <address className="font-montserrat text-white/70 text-sm not-italic leading-relaxed">
-                  900m N. de la Iglesia de San Rafael,<br />
-                  contiguo al Residencial Bello Verde,<br />
-                  Cartago, CR 30301
+                  500 metros este del Minisuper Piedra Azul,<br />
+                  planta a mano derecha con portones grises,<br />
+                  Santiago, Paraíso, Cartago
                 </address>
               </li>
               <li>
@@ -104,7 +104,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="font-montserrat text-white/40 text-xs text-center">
-          © {year} JOLY Fresh Product. Todos los derechos reservados.
+          © {year} JOLY. Todos los derechos reservados.
           <span className="mx-2">·</span>
           Cartago, Costa Rica
         </p>

@@ -8,6 +8,7 @@ import ProductCard from '../components/catalog/ProductCard'
 import ProductModal from '../components/catalog/ProductModal'
 import BrandDivider from '../components/ui/BrandDivider'
 import { useState } from 'react'
+import logoClaro from '../assets/logo_claro.svg'
 
 const JSON_LD = {
   '@context': 'https://schema.org',
@@ -15,13 +16,12 @@ const JSON_LD = {
   name: 'JOLY',
   description: 'Empresa costarricense de productos frescos precortados, ensaladas y comida preparada.',
   url: 'https://www.jolyfreshproduct.com',
-  telephone: ['+50664494173', '+50688845963'],
+  telephone: ['+50664494173', '+50687633342'],
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '900m N. de la Iglesia de San Rafael, contiguo al Residencial Bello Verde',
+    streetAddress: '500 metros este del Minisuper Piedra Azul, Santiago, Paraíso',
     addressLocality: 'Cartago',
     addressCountry: 'CR',
-    postalCode: '30301',
   },
   sameAs: ['https://www.facebook.com/joly', 'https://www.instagram.com/joly'],
 }
@@ -95,24 +95,14 @@ export default function Home() {
           </div>
 
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="font-montserrat text-joly-dorado text-sm uppercase tracking-[0.25em] mb-4"
+              transition={{ duration: 0.7 }}
+              className="flex justify-center mb-8"
             >
-              calidad y frescura
-            </motion.p>
-
-            <motion.h1
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
-              className="font-lato font-black text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-6"
-            >
-              Del campo<br />
-              <span className="text-joly-dorado">a tu mesa</span>
-            </motion.h1>
+              <img src={logoClaro} alt="JOLY" className="h-24 sm:h-32 md:h-40 w-auto" />
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -120,8 +110,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.25 }}
               className="font-montserrat text-white/80 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
             >
-              Productos frescos precortados, ensaladas preparadas y comida lista.
-              La frescura que necesita tu cocina, lista para usar.
+              Productos frescos, pre cortados, procesados, ensaladas preparadas, comidas preparadas,
+              mieles, conservas y encurtidos elaborados con altos estándares de calidad e inocuidad,
+              que necesita su negocio y cocina para que logre una eficiencia y eficacia en su producto final.
             </motion.p>
 
             <motion.div
@@ -291,15 +282,15 @@ export default function Home() {
                   WhatsApp: 6449-4173
                 </a>
                 <a
-                  href="tel:+50688845963"
+                  href="tel:+50687633342"
                   className="inline-flex items-center gap-2 font-montserrat font-semibold border-2 border-white/30 text-white px-8 py-4 rounded-full text-base hover:bg-white/10 transition-all focus-visible:outline-2 focus-visible:outline-white"
                 >
-                  Llamar: 8884-5963
+                  Llamar: 8763-3342
                 </a>
               </div>
 
               <p className="font-montserrat text-white/40 text-sm">
-                📍 900m N. de la Iglesia de San Rafael, Cartago, Costa Rica
+                📍 500 metros este del Minisuper Piedra Azul, Santiago, Paraíso, Cartago, Costa Rica
               </p>
             </motion.div>
           </div>

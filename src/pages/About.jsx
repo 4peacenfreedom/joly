@@ -46,9 +46,6 @@ export default function About() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <p className="font-montserrat text-joly-dorado text-sm uppercase tracking-widest mb-2">
-                Nuestra historia
-              </p>
               <h1 className="font-lato font-black text-white text-4xl sm:text-5xl mb-4">
                 Nosotros
               </h1>
@@ -72,23 +69,22 @@ export default function About() {
                 transition={{ duration: 0.5 }}
               >
                 <h2 id="historia-heading" className="font-lato font-black text-joly-verde text-3xl sm:text-4xl mb-4">
-                  Calidad y frescura<br />desde Cartago
+                  Calidad y Frescura
                 </h2>
                 <p className="font-montserrat text-gray-600 text-base leading-relaxed mb-4">
-                  JOLY nació con una visión clara: llevar productos frescos precortados directamente
-                  desde el campo hasta las cocinas de Costa Rica. Ubicados en Cartago, en el corazón
-                  agrícola del país, trabajamos de cerca con productores locales para garantizar la
-                  trazabilidad y frescura de cada producto.
+                  En Joly cada producto está diseñado para ahorrar tiempo y mermas en la cocina de tu empresa,
+                  tu restaurante o tu casa, manteniendo la calidad, inocuidad y frescura de cada producto,
+                  nos enfocamos en un servicio eficaz en tiempos y cumplimientos de entrega, adicional somos
+                  productores desde el campo, así podemos ser altamente competitivos en precio.
                 </p>
                 <p className="font-montserrat text-gray-600 text-base leading-relaxed mb-4">
-                  Nuestra planta de procesamiento opera bajo estrictos estándares de higiene y calidad.
-                  Cada vegetal es seleccionado, lavado, cortado y empacado con cuidado para que llegue
-                  en perfectas condiciones a su destino.
+                  Nuestra planta de proceso y todas nuestras líneas cuentan con Certificación (GFSI) bajo
+                  la norma (SQF), garantizando la inocuidad de nuestros productos desde el campo hasta
+                  cada entrega realizada.
                 </p>
                 <p className="font-montserrat text-gray-600 text-base leading-relaxed">
-                  Hoy ofrecemos más de 34 productos en 5 categorías, atendiendo a clientes en todo
-                  el Gran Área Metropolitana y más allá. Nuestro slogan lo dice todo:{' '}
-                  <em className="font-semibold text-joly-verde">calidad y frescura</em>.
+                  Ofrecemos más de 250 productos en distintas presentaciones que se adapten a cada necesidad
+                  específica de cada cliente, en nuestro catálogo escogimos algunos de ellos.
                 </p>
               </motion.div>
 
@@ -102,9 +98,9 @@ export default function About() {
                 <h3 className="font-lato font-bold text-2xl mb-6">En números</h3>
                 <div className="grid grid-cols-2 gap-6">
                   {[
-                    { num: '34+', label: 'Productos frescos' },
-                    { num: '5', label: 'Categorías' },
-                    { num: '100%', label: 'Origen Costa Rica' },
+                    { num: '250+', label: 'Productos disponibles' },
+                    { num: 'GFSI', label: 'Certificación SQF' },
+                    { num: '100%', label: 'Productores desde el campo' },
                     { num: 'Diario', label: 'Procesamiento fresco' },
                   ].map(({ num, label }) => (
                     <div key={label} className="text-center">
