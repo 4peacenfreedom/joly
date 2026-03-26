@@ -43,7 +43,7 @@ const valores = [
   {
     icon: Grid3X3,
     title: 'Variedad',
-    desc: 'Más de 34 productos en 5 categorías para cubrir todas las necesidades de su cocina.',
+    desc: 'Más de 34 productos en 5 categorías para cubrir todas las necesidades de su negocio.',
   },
 ]
 
@@ -176,9 +176,6 @@ const [selectedProduct, setSelectedProduct] = useState(null)
               <h2 id="valores-heading" className="font-lato font-black text-white text-3xl sm:text-4xl mb-3">
                 ¿Por qué elegir JOLY?
               </h2>
-              <p className="font-montserrat text-white/70 text-base max-w-xl mx-auto">
-                Más de una razón para confiar en nosotros para sus productos frescos.
-              </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
