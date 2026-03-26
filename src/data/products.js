@@ -212,7 +212,7 @@ export const products = [
     ingredients: ['Zanahoria'],
     cutTypes: ['Trozos', 'Bastones', 'Picada', 'Rodajas', 'Rallada'],
     presentations: 'Paquetes desde 500 g hasta 2 kg',
-    image: `${CDN}/zanahoria_xgzpad`,
+    image: `${CDN}/zanahoria_tv76mq`,
     order: 2,
   },
   {
