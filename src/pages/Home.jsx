@@ -2,11 +2,9 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { ArrowRight, Leaf, Award, Clock, Grid3X3 } from 'lucide-react'
-import { useCategories } from '../hooks/useCategories'
 import { products } from '../data/products'
 import ProductCard from '../components/catalog/ProductCard'
 import ProductModal from '../components/catalog/ProductModal'
-import BrandDivider from '../components/ui/BrandDivider'
 import { useState } from 'react'
 import logoClaro from '../assets/logo_claro.svg'
 
@@ -45,7 +43,7 @@ const valores = [
   {
     icon: Grid3X3,
     title: 'Variedad',
-    desc: 'Más de 34 productos en 5 categorías para cubrir todas las necesidades de su cocina.',
+    desc: 'Más de 34 productos en 5 categorías para cubrir todas las necesidades de su negocio.',
   },
 ]
 
@@ -63,8 +61,7 @@ const featuredProducts = featuredSlugs
   .filter(Boolean)
 
 export default function Home() {
-  const { categories } = useCategories()
-  const [selectedProduct, setSelectedProduct] = useState(null)
+const [selectedProduct, setSelectedProduct] = useState(null)
 
   return (
     <>
@@ -111,8 +108,7 @@ export default function Home() {
               className="font-montserrat text-white/80 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
             >
               Productos frescos, pre cortados, procesados, ensaladas preparadas, comidas preparadas,
-              mieles, conservas y encurtidos elaborados con altos estándares de calidad e inocuidad,
-              que necesita su negocio y cocina para que logre una eficiencia y eficacia en su producto final.
+              mieles, conservas y encurtidos elaborados con altos estándares de calidad e inocuidad.
             </motion.p>
 
             <motion.div
@@ -139,50 +135,6 @@ export default function Home() {
             </motion.div>
           </div>
         </section>
-
-        {/* ── CATEGORÍAS ───────────────────────────── */}
-        <section className="py-16 px-4 bg-white" aria-labelledby="categories-heading">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 id="categories-heading" className="font-lato font-black text-joly-verde text-3xl sm:text-4xl mb-3">
-                Nuestras Categorías
-              </h2>
-              <p className="font-montserrat text-joly-taupe text-base max-w-xl mx-auto">
-                5 líneas de producto, cada una pensada para simplificar y enriquecer su cocina.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-              {categories.map((cat, i) => (
-                <motion.div
-                  key={cat.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.06 }}
-                >
-                  <Link
-                    to={`/catalogo?categoria=${cat.slug}`}
-                    className="group flex flex-col items-center text-center p-6 rounded-2xl border border-joly-gris/50 hover:border-joly-dorado hover:shadow-lg transition-all duration-300 bg-joly-fondo focus-visible:outline-2 focus-visible:outline-joly-verde block"
-                  >
-                    <span className="text-4xl mb-3" aria-hidden="true">{cat.icon}</span>
-                    <h3 className="font-lato font-bold text-joly-verde text-base mb-1 group-hover:text-joly-dorado transition-colors">
-                      {cat.name}
-                    </h3>
-                    <p className="font-montserrat text-joly-taupe text-xs leading-relaxed mb-3">
-                      {cat.description}
-                    </p>
-                    <span className="font-montserrat font-semibold text-joly-dorado text-xs">
-                      {cat.count} producto{cat.count !== 1 ? 's' : ''} →
-                    </span>
-                  </Link>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <BrandDivider className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" />
 
         {/* ── PRODUCTOS DESTACADOS ─────────────────── */}
         <section className="py-16 px-4 bg-joly-fondo" aria-labelledby="featured-heading">
@@ -224,9 +176,6 @@ export default function Home() {
               <h2 id="valores-heading" className="font-lato font-black text-white text-3xl sm:text-4xl mb-3">
                 ¿Por qué elegir JOLY?
               </h2>
-              <p className="font-montserrat text-white/70 text-base max-w-xl mx-auto">
-                Más de una razón para confiar en nosotros para sus productos frescos.
-              </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
