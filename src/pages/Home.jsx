@@ -111,8 +111,7 @@ export default function Home() {
               className="font-montserrat text-white/80 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
             >
               Productos frescos, pre cortados, procesados, ensaladas preparadas, comidas preparadas,
-              mieles, conservas y encurtidos elaborados con altos estándares de calidad e inocuidad,
-              que necesita su negocio y cocina para que logre una eficiencia y eficacia en su producto final.
+              mieles, conservas y encurtidos elaborados con altos estándares de calidad e inocuidad.
             </motion.p>
 
             <motion.div
