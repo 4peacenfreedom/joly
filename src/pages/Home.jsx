@@ -7,6 +7,7 @@ import ProductCard from '../components/catalog/ProductCard'
 import ProductModal from '../components/catalog/ProductModal'
 import { useState } from 'react'
 import logoClaro from '../assets/logo_claro.svg'
+import ValoresSection from '../components/ui/ValoresSection'
 
 const JSON_LD = {
   '@context': 'https://schema.org',
@@ -198,6 +199,9 @@ const [selectedProduct, setSelectedProduct] = useState(null)
             </div>
           </div>
         </section>
+
+        {/* ── VALORES ──────────────────────────────── */}
+        <ValoresSection />
 
         {/* ── CONTACTO / CTA ───────────────────────── */}
         <section
