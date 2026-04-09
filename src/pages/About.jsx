@@ -5,24 +5,24 @@ import BrandDivider from '../components/ui/BrandDivider'
 
 const valores = [
   {
-    icon: Leaf,
-    title: 'Frescura Garantizada',
-    desc: 'Procesamos y empacamos el mismo día para entregarle productos en su punto óptimo de frescura.',
+    icon: Heart,
+    title: 'Respeto',
+    desc: 'Mantener un ambiente interno y externo de armonía y tolerancia.',
   },
   {
     icon: Award,
-    title: 'Calidad Superior',
-    desc: 'Seleccionamos cuidadosamente cada vegetal, aplicando estrictos controles de calidad en todo el proceso.',
+    title: 'Compromiso',
+    desc: 'Ofrecer la más alta calidad en nuestros productos.',
   },
   {
-    icon: Heart,
-    title: 'Pasión por el Detalle',
-    desc: 'Cada corte, cada mezcla, cada empaque es trabajado con dedicación para superar sus expectativas.',
+    icon: Leaf,
+    title: 'Ética',
+    desc: 'Actuar siempre respetando los valores y principios sociales y empresariales.',
   },
   {
     icon: Users,
-    title: 'Servicio Personalizado',
-    desc: 'Entendemos que cada cliente tiene necesidades únicas. Nos adaptamos para servirle mejor.',
+    title: 'Compromiso Social',
+    desc: 'Comprometidos con el mejoramiento social, económico y ambiental del país.',
   },
 ]
 
